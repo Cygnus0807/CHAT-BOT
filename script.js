@@ -1,7 +1,7 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+916363549133'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'></label></label></div> </a> <a href='mailto:akanshusingh08aecit@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Cygnus0807'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/916363549133'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+918252521221'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'></label></label></div> </a> <a href='mailto:akanshusingh08aecit@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Cygnus0807'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/916363549133'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''>";
 var resumeString = "<img src='images/resume_thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Akanshu Singh Resume.pdf</label></div><a href='assets/akanshu_resume.pdf' download='akanshu_resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/dir//Moodbidri+private+Bus+Stand,+Bus+Stand+Rd,+Mudbidri,+Karnataka+574227/@13.0639,74.9991985,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba4ab3d49331379:0x17be05cb5b69caa2!2m2!1d74.9957298!2d13.0680955?hl=en' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
+var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/dir//Steel+Gate,+Kusum+Vihar,+Chanakya+Nagar,+Dhanbad,+Jharkhand/@23.8138522,86.4200639,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39f6bc7e5c4e97eb:0x970ebdf8c8b9d3a7!2m2!1d86.4612637!2d23.8137791?hl=en&entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D' class='map'></iframe></div><label class='add'><address>B2 'Hanuman mandir'<br>Nutandi<br>Dhanbad, Jharkhand, INDIA 826003</address>";
 
 function startFunction() {
     setLastSeen();
@@ -156,7 +156,7 @@ function waitAndResponce(inputText) {
             break;
         
         case "website":
-            sendTextMessage("You can connect me here <a target='_blank' href='https://www.linkedin.com/in/akanshu-singh-44896322a/'>Akanshu Singh</a>");
+            sendTextMessage("You can connect me here <a target='_blank' href='https://portfolio-akanshu.web.app/'>Akanshu Singh</a>");
             break;
         case "blog":
             sendTextMessage("You can check my activity here <a target='_blank' href='https://www.instagram.com/aka.cygnus/'>Akanshu Singh</a>");
